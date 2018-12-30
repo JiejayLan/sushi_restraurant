@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import img from "./component/sources/food1.jpg";
 import {
   Navbar,
   NavbarBrand,
@@ -12,6 +13,7 @@ import {
 import Navigationbar from "./component/Navigationbar.js"
 import Story from "./component/Story.js"
 import Footerpage from "./component/Footer.js"
+import GridFood from "./component/GridFood.js"
 import "./index.css";
 
 import Routes from "./Routes";
@@ -29,8 +31,9 @@ class App extends Component {
         <div>
             <Navigationbar/>
             <Story/>
+            <GridFood/>
             <Footerpage/>
-
+            <img src={'img'} className="img-fluid" alt="Responsive image" height="42" width="42"></img>
 
 
         </div>
