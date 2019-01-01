@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img from "./component/sources/food1.jpg";
+
 import {
   Navbar,
   NavbarBrand,
@@ -33,7 +33,7 @@ class App extends Component {
             <Story/>
             <GridFood/>
             <Footerpage/>
-            <img src={'img'} className="img-fluid" alt="Responsive image" height="42" width="42"></img>
+
 
 
         </div>
