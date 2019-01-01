@@ -15,6 +15,7 @@ import Story from "./component/Story.js"
 import Footerpage from "./component/Footer.js"
 import GridFood from "./component/GridFood.js"
 import "./index.css";
+import Carose from "./component/CarouselComponent"
 
 import Routes from "./Routes";
 
@@ -30,6 +31,7 @@ class App extends Component {
     return (
         <div>
             <Navigationbar/>
+            <Carose/>
             <Story/>
             <GridFood/>
             <Footerpage/>
