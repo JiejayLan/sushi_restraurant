@@ -13,7 +13,7 @@ import {
 
 const Footerpage= (props)=>{
     return (
-        <Footer color="indigo">
+        <Footer background-color="rgba(0, 0, 0, 0.1)">
             <p className="footer-copyright mb-0 py-3 text-center">
                 &copy; {new Date().getFullYear()} Copyright:{" "}
                 <a href="https://github.com/JiejayLan/restaurant"> Bida Chen/ Jie Lan</a>

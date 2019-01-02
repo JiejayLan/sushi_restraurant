@@ -42,7 +42,7 @@ class Navigationbar extends Component {
         return (
             <Router>
                 <div className="flyout navigation">
-                    <Navbar color="indigo" dark expand="md" fixed="top" scrolling>
+                    <Navbar color="black" dark expand="md" fixed="top" scrolling>
                         <NavbarBrand href="/">
                             <img
                                 src="https://cdn2.iconfinder.com/data/icons/building-vol-2/512/restaurant-512.png"
