@@ -10,8 +10,8 @@ import {
 } from "mdbreact";
 import "./style/Story.css";
 import Navigationbar from "./Navigationbar";
-import Carose from "./CarouselComponent";
-import GridFood from "./GridFood";
+import Carose from "./Carousel";
+import LightBox from "./LightBox";
 import Footerpage from "./Footer";
 
 class Story extends Component {

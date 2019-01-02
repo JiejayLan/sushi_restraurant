@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol,MDBMask, MDBView } from "mdbreact";
 import Lightbox from "react-image-lightbox";
 import "./style/gridBox.css";
 
-class GridFood extends React.Component {
+class LightBox extends React.Component {
     state = {
         photoIndex: 0,
         isOpen: false,
@@ -78,4 +78,4 @@ class GridFood extends React.Component {
 }
 
 
-export default GridFood;
+export default LightBox;

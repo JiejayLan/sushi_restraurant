@@ -13,11 +13,10 @@ import {
 import Navigationbar from "./component/Navigationbar.js"
 import Story from "./component/Story.js"
 import Footerpage from "./component/Footer.js"
-import GridFood from "./component/GridFood.js"
-import "./index.css";
-import Carose from "./component/CarouselComponent"
-import Routes from "./Routes";
-import Menu from "./component/menu"
+import LightBox from "./component/LightBox.js"
+import "./App.css";
+import Carose from "./component/Carousel"
+import Menu from "./component/Menu"
 
 
 
@@ -28,8 +27,6 @@ class App extends Component {
 
   }
 
-
-
   render() {
 
     return (
@@ -37,19 +34,13 @@ class App extends Component {
             <Navigationbar/>
             <Carose/>
             <Story/>
-            <GridFood/>
+            <LightBox/>
             <img src={require("./component/sources/food13.png")}
                  className="foodImage"
             />
             <Menu/>
             <Footerpage/>
-
-
-
         </div>
-
-
-
     );
   }
 }

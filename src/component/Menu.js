@@ -10,10 +10,8 @@ class Menu extends React.Component {
             <div >
 
                 <MDBBtn href = {Pdf} size="sm" outline color="info">Info</MDBBtn>
+
             </div>
-
-
-
 
         );
     }
