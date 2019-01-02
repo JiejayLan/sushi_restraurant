@@ -1,0 +1,17 @@
+.story{
+    margin-top: 40px;
+}
+.storyAppear{
+
+
+    opacity: 1;
+    transition: 0.6s;
+
+}
+
+.storyDisappear{
+
+
+    opacity: 0;
+    transition: 0.6s;
+}

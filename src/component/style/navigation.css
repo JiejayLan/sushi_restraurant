@@ -2,3 +2,6 @@
     width: auto;
     height: 50px;
 }
+.navigation{
+    min-height: 20vh;
+}

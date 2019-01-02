@@ -41,7 +41,7 @@ class Navigationbar extends Component {
         );
         return (
             <Router>
-                <div className="flyout">
+                <div className="flyout navigation">
                     <Navbar color="indigo" dark expand="md" fixed="top" scrolling>
                         <NavbarBrand href="/">
                             <img

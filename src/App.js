@@ -16,8 +16,11 @@ import Footerpage from "./component/Footer.js"
 import GridFood from "./component/GridFood.js"
 import "./index.css";
 import Carose from "./component/CarouselComponent"
-
 import Routes from "./Routes";
+import Menu from "./component/menu"
+
+
+
 
 class App extends Component {
   constructor(props) {
@@ -26,14 +29,19 @@ class App extends Component {
   }
 
 
+
   render() {
 
     return (
-        <div>
+        <div id = "myapp" >
             <Navigationbar/>
             <Carose/>
             <Story/>
             <GridFood/>
+            <img src={require("./component/sources/food13.png")}
+                 className="foodImage"
+            />
+            <Menu/>
             <Footerpage/>
 
 
