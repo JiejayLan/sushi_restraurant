@@ -43,7 +43,7 @@ class Navigationbar extends Component {
         return (
 
             <div className="flyout navigation">
-                <Navbar color="black" dark expand="md" fixed="top" scrolling>
+                <Navbar color="elegant-color" dark expand="md" fixed="top" scrolling>
                     <NavbarBrand href="/">
                         <img
                             src="https://cdn2.iconfinder.com/data/icons/building-vol-2/512/restaurant-512.png"
@@ -68,17 +68,7 @@ class Navigationbar extends Component {
                                     to="/"
                                     onClick={this.closeCollapse("mainNavbarCollapse")}
                                 >
-                                    Home
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink
-                                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                                    to="/"
-
-
-                                >
-                                    Our story
+                                    HOME
                                 </NavLink>
                             </NavItem>
                             <NavItem>
@@ -86,8 +76,20 @@ class Navigationbar extends Component {
                                     onClick={this.closeCollapse("mainNavbarCollapse")}
                                     to="/menu"
 
+
                                 >
-                                    Menu
+                                  OUR STORY
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink
+                                    onClick={this.closeCollapse("mainNavbarCollapse")}
+                                    to="/menu"
+
+
+
+                                >
+                                    MENU
                                 </NavLink>
                             </NavItem>
                             <NavItem>
@@ -96,17 +98,10 @@ class Navigationbar extends Component {
                                     to="/order"
 
                                 >
-                                    Order
+                                    RESERVATION
                                 </NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink
-                                    onClick={this.closeCollapse("mainNavbarCollapse")}
-                                    to="/"
-                                >
-                                    Contact
-                                </NavLink>
-                            </NavItem>
+
 
                         </NavbarNav>
                     </Collapse>

@@ -38,7 +38,6 @@ class App extends Component {
             <img src={require("./component/sources/food13.png")}
                  className="foodImage"
             />
-            <Menu/>
             <Footerpage/>
         </div>
     );

@@ -7,6 +7,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Route,Switch , Link, NavLink} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
+import Menu from "./component/Menu"
 
 
 
@@ -14,10 +15,8 @@ const MainPage = () => (
     <App/>
 );
 
-const Menu = () => (
-    <div>
-        This is menu
-    </div>
+const menu = () => (
+    <Menu/>
 );
 
 const NotFoundPage = () => (
@@ -37,7 +36,7 @@ const Routes = (
     <BrowserRouter>
         <Switch>
             <Route path="/" component={MainPage} exact={true} />
-            <Route path="/menu" component={Menu} exact={true} />
+            <Route path="/menu" component={menu} exact={true} />
             <Route path="/order" component={Order}  exact={true}/>
             <Route component={NotFoundPage} exact={true}/>
         </Switch>

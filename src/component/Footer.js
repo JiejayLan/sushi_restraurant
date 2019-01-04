@@ -9,16 +9,43 @@ import {
     NavItem,
     NavLink
 } from "mdbreact";
-
+import "./style/footer.css"
 
 const Footerpage= (props)=>{
     return (
-        <Footer background-color="rgba(0, 0, 0, 0.1)">
-            <p className="footer-copyright mb-0 py-3 text-center">
-                &copy; {new Date().getFullYear()} Copyright:{" "}
-                <a href="https://github.com/JiejayLan/restaurant"> Bida Chen/ Jie Lan</a>
-            </p>
-        </Footer>
+        <div>
+
+            <div className="media">
+                <a href="http://www.facebook.com/453227458173245" target="_blank">
+                    <div>
+                        facebook
+                    </div>
+                </a>
+                <a href="https://twitter.com/SushiYasaka" target="_blank" >
+                    <div>
+                        twitter
+                    </div>
+                </a>
+                <a href="http://instagram.com/sushiyasaka" target="_blank" >
+                    <div >
+                        isntagram
+                    </div>
+                </a>
+                <a href="mailto:sushiyasakanyc@gmail.com" target="_blank" >
+                    <div>
+                        email
+                    </div>
+                </a>
+
+            </div>
+
+            <div  className="address" color="elegant-color">
+
+                <br/>
+                <div >SUSHI YASAKA, 251 W 72ND ST, NEW YORK, NY, 10023, UNITED STATES(212) 496-8460 SUSHIYASAKANYC@GMAIL.COM</div>
+
+            </div>
+        </div>
     )
 };
 
