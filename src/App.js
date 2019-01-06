@@ -16,7 +16,7 @@ import Footerpage from "./component/Footer.js"
 import LightBox from "./component/LightBox.js"
 import "./App.css";
 import Carose from "./component/Carousel"
-import Menu from "./component/Menu"
+
 
 
 
@@ -35,6 +35,9 @@ class App extends Component {
             <Carose/>
             <Story/>
             <LightBox/>
+            <img src={require("./component/sources/location.png")}
+                 className="locationImage"
+            />
             <img src={require("./component/sources/food13.png")}
                  className="foodImage"
             />

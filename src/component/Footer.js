@@ -10,32 +10,37 @@ import {
     NavLink
 } from "mdbreact";
 import "./style/footer.css"
+import {envelopeO} from 'react-icons-kit/fa/envelopeO'
+import {facebook} from 'react-icons-kit/fa/facebook'
+import {instagram} from 'react-icons-kit/fa/instagram'
+import { Icon } from 'react-icons-kit'
+import {twitter} from 'react-icons-kit/fa/twitter'
 
 const Footerpage= (props)=>{
     return (
         <div>
 
             <div className="media">
-                <a href="http://www.facebook.com/453227458173245" target="_blank">
-                    <div>
-                        facebook
-                    </div>
-                </a>
-                <a href="https://twitter.com/SushiYasaka" target="_blank" >
-                    <div>
-                        twitter
-                    </div>
-                </a>
-                <a href="http://instagram.com/sushiyasaka" target="_blank" >
-                    <div >
-                        isntagram
-                    </div>
-                </a>
-                <a href="mailto:sushiyasakanyc@gmail.com" target="_blank" >
-                    <div>
-                        email
-                    </div>
-                </a>
+
+                <div className="mediaLink" href="http://www.facebook.com/453227458173245" target="_blank">
+                    <Icon icon={facebook} size={30}/>
+                </div>
+
+
+                <div className="mediaLink" href="https://twitter.com/SushiYasaka" target="_blank" >
+                    <Icon icon={twitter} size={30}/>
+                </div>
+
+
+                <div  className="mediaLink"  href="http://instagram.com/sushiyasaka" target="_blank" >
+                    <Icon icon={instagram} size={30}/>
+                </div>
+
+
+                <adiv className="mediaLink" href="mailto:sushiyasakanyc@gmail.com" target="_blank" >
+                    <Icon icon={envelopeO} size={30}/>
+                </adiv>
+
 
             </div>
 
